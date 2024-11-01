@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+    
+<script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+<!-- Filled -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- Outlined -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+<!-- Rounded -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+<!-- Sharp -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+<!-- Two Tone -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+
+<!-- font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<style>
+    html{
+        font-family: "JetBrains Mono", sans-serif;
+    }
+   html:root {
+
+  --mdui-color-primary: 255 180 166;
+  --mdui-color-surface-tint: 255 180 166;
+  --mdui-color-on-primary: 102 7 0;
+  --mdui-color-primary-container: 229 29 0;
+  --mdui-color-on-primary-container: 255 255 255;
+  --mdui-color-secondary: 255 180 166;
+  --mdui-color-on-secondary: 102 7 0;
+  --mdui-color-secondary-container: 132 12 0;
+  --mdui-color-on-secondary-container: 255 201 191;
+  --mdui-color-tertiary: 252 187 76;
+  --mdui-color-on-tertiary: 67 44 0;
+  --mdui-color-tertiary-container: 157 107 0;
+  --mdui-color-on-tertiary-container: 255 255 255;
+  --mdui-color-error: 255 180 171;
+  --mdui-color-on-error: 105 0 5;
+  --mdui-color-error-container: 147 0 10;
+  --mdui-color-on-error-container: 255 218 214;
+  --mdui-color-background: 32 14 11;
+  --mdui-color-on-background: 255 218 212;
+  --mdui-color-surface: 32 14 11;
+  --mdui-color-on-surface: 255 218 212;
+  --mdui-color-surface-variant: 95 63 57;
+  --mdui-color-on-surface-variant: 233 188 180;
+  --mdui-color-outline: 175 135 128;
+  --mdui-color-outline-variant: 95 63 57;
+  --mdui-color-shadow: 0 0 0;
+  --mdui-color-scrim: 0 0 0;
+  --mdui-color-inverse-surface: 255 218 212;
+  --mdui-color-inverse-on-surface: 65 43 39;
+  --mdui-color-inverse-primary: 188 22 0;
+  --mdui-color-primary-fixed: 255 218 212;
+  --mdui-color-on-primary-fixed: 63 3 0;
+  --mdui-color-primary-fixed-dim: 255 180 166;
+  --mdui-color-on-primary-fixed-variant: 144 14 0;
+  --mdui-color-secondary-fixed: 255 218 212;
+  --mdui-color-on-secondary-fixed: 63 3 0;
+  --mdui-color-secondary-fixed-dim: 255 180 166;
+  --mdui-color-on-secondary-fixed-variant: 142 18 3;
+  --mdui-color-tertiary-fixed: 255 221 175;
+  --mdui-color-on-tertiary-fixed: 40 24 0;
+  --mdui-color-tertiary-fixed-dim: 252 187 76;
+  --mdui-color-on-tertiary-fixed-variant: 97 64 0;
+  --mdui-color-surface-dim: 32 14 11;
+  --mdui-color-surface-bright: 75 51 47;
+  --mdui-color-surface-container-lowest: 26 9 7;
+  --mdui-color-surface-container-low: 42 22 19;
+  --mdui-color-surface-container: 46 26 23;
+  --mdui-color-surface-container-high: 58 37 33;
+  --mdui-color-surface-container-highest: 70 47 43;
+
+}
+.clovers{
+    -webkit-mask: url(clover.svg);
+    mask-image: url(clover.svg);
+}
+
+
+
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgba(var(--mdui-color-primary-container)); /* The typwriter cursor */
+   /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; 
+  text-align: center;                     /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(20, end),
+    blink-caret .755s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 190px }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  70% { border-color: rgba(var(--mdui-color-primary-container)); text-align:center; }
+  
+  
+}
+.txt h1
+{
+	
+	text-align: center;
+	letter-spacing: 5px;
+	
+}
+</style>
+
+    <title>Aquiles Trindade Ferreira</title>
+</head>
+<header>
+    <mdui-top-app-bar style="position: relative;">
+        
+        <mdui-top-app-bar-title style="padding-left: 14px; font-size: 16px; ">Aquiles Trindade</mdui-top-app-bar-title>
+        <div style="flex-grow: 1"></div>
+        <mdui-button-icon icon="more_vert"></mdui-button-icon>
+      </mdui-top-app-bar>
+      
+
+</header>
+<body>
+    <div style="margin: 36px; text-align: center; -webkit-mask-size: cover ; object-fit: cover; mask-size: cover;" >
+    <img class="clovers" src="https://github.com/Trindadedev13.png" width="250" height="250" alt="pfp">
+</div>
+
+    <div class="typewriter">
+
+        <h1>Aquiles Trindade Ferreira</h1>
+
+    </div>
+
+
+</body>
+
+</html>
