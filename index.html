@@ -84,8 +84,9 @@
 
 }
 .clovers{
-    -webkit-mask: url(clover.svg);
+    -webkit-mask : url(clover.svg);
     mask-image: url(clover.svg);
+   
 }
 
 
@@ -142,7 +143,18 @@
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
+/*.fadeins {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translate(0, 100px);
+}
+
+.fadeins.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}*/
 </style>
+
 
     <title>Aquiles Trindade Ferreira</title>
 </head>
@@ -166,8 +178,34 @@
         <h1>Aquiles Trindade Ferreira</h1>
     
     </div>
+  <mdui-divider width="10px" style="margin-top: 25px;" class="animated animatedFadeInUp fadeInUp"></mdui-divider>
+   <div style="text-align: center;">
+
+    <h2 class="fadeins">About Aquiles</h2>
+   <mdui-card variant="outlined"  style="margin: 12px; padding: 10px ;">
+    <p class="fadeins">
+        AquilesTrindade, a developer whose name sounds like a mythical hero (and probably codes like one!), is deeply in love with Jetpack Compose. This isn't just a casual fling; it's a full-blown, committed relationship.  His passion manifests in a stunning array of projects, each a testament to his Compose prowess.  He's the mastermind behind Robok, a gaming engine and its accompanying language – talk about ambition!  Then there's Robok Easy-UI, making GUI creation for games a breeze.  He even tackled IDEs, creating SparklesIDE (web/Python), Nexus (Java/Kotlin), and the impressively multilingual Karbon.  And let's not forget Visual Code Space, his all-encompassing IDE, all built with the magic of Compose.  He even found time to build a Telegram bot tool – because, why not?  The man's a coding machine!  His projects are a testament to his skill and dedication, showcasing the versatility and power of Jetpack Compose.  Seriously, this guy's a force of nature.  He's single-handedly proving that Compose can handle anything you throw at it.  He's like the Jetpack Compose ninja warrior, silently and efficiently conquering the world of software development, one beautifully crafted line of code at a time.  AquilesTrindade: the name is synonymous with Jetpack Compose mastery.  He's basically the Compose whisperer.  If you need something built in Compose, you know who to call!
+    </p></mdui-card>
+   </div>
+    
 
 
 </body>
-
+<script>
+   /* $(document).on("scroll", function () {
+      var pageTop = $(document).scrollTop()
+      var pageBottom = pageTop + $(window).height()
+      var tags = $(".fadeins")
+  
+      for (var i = 0; i < tags.length; i++) {
+        var tag = tags[i]
+  
+        if ($(tag).offset().top < pageBottom) {
+          $(tag).addClass("visible")
+        } else {
+          $(tag).removeClass("visible")
+        }
+      }
+    })*/
+  </script>
 </html>
