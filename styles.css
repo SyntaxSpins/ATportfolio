@@ -1,0 +1,126 @@
+    html{
+        font-family: "JetBrains Mono", sans-serif;
+    }
+   html:root {
+
+  --mdui-color-primary: 255 180 166;
+  --mdui-color-surface-tint: 255 180 166;
+  --mdui-color-on-primary: 102 7 0;
+  --mdui-color-primary-container: 229 29 0;
+  --mdui-color-on-primary-container: 255 255 255;
+  --mdui-color-secondary: 255 180 166;
+  --mdui-color-on-secondary: 102 7 0;
+  --mdui-color-secondary-container: 132 12 0;
+  --mdui-color-on-secondary-container: 255 201 191;
+  --mdui-color-tertiary: 252 187 76;
+  --mdui-color-on-tertiary: 67 44 0;
+  --mdui-color-tertiary-container: 157 107 0;
+  --mdui-color-on-tertiary-container: 255 255 255;
+  --mdui-color-error: 255 180 171;
+  --mdui-color-on-error: 105 0 5;
+  --mdui-color-error-container: 147 0 10;
+  --mdui-color-on-error-container: 255 218 214;
+  --mdui-color-background: 32 14 11;
+  --mdui-color-on-background: 255 218 212;
+  --mdui-color-surface: 32 14 11;
+  --mdui-color-on-surface: 255 218 212;
+  --mdui-color-surface-variant: 95 63 57;
+  --mdui-color-on-surface-variant: 233 188 180;
+  --mdui-color-outline: 175 135 128;
+  --mdui-color-outline-variant: 95 63 57;
+  --mdui-color-shadow: 0 0 0;
+  --mdui-color-scrim: 0 0 0;
+  --mdui-color-inverse-surface: 255 218 212;
+  --mdui-color-inverse-on-surface: 65 43 39;
+  --mdui-color-inverse-primary: 188 22 0;
+  --mdui-color-primary-fixed: 255 218 212;
+  --mdui-color-on-primary-fixed: 63 3 0;
+  --mdui-color-primary-fixed-dim: 255 180 166;
+  --mdui-color-on-primary-fixed-variant: 144 14 0;
+  --mdui-color-secondary-fixed: 255 218 212;
+  --mdui-color-on-secondary-fixed: 63 3 0;
+  --mdui-color-secondary-fixed-dim: 255 180 166;
+  --mdui-color-on-secondary-fixed-variant: 142 18 3;
+  --mdui-color-tertiary-fixed: 255 221 175;
+  --mdui-color-on-tertiary-fixed: 40 24 0;
+  --mdui-color-tertiary-fixed-dim: 252 187 76;
+  --mdui-color-on-tertiary-fixed-variant: 97 64 0;
+  --mdui-color-surface-dim: 32 14 11;
+  --mdui-color-surface-bright: 75 51 47;
+  --mdui-color-surface-container-lowest: 26 9 7;
+  --mdui-color-surface-container-low: 42 22 19;
+  --mdui-color-surface-container: 46 26 23;
+  --mdui-color-surface-container-high: 58 37 33;
+  --mdui-color-surface-container-highest: 70 47 43;
+
+}
+.clovers{
+    -webkit-mask : url(clover.svg);
+    mask-image: url(clover.svg);
+   
+}
+
+
+
+
+
+.txt h1
+{
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; 
+  text-align: center; 
+	text-align: center;
+	letter-spacing: 5px;
+	
+}
+/*Aniamtion*/
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+/*.fadeins {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translate(0, 100px);
+}
+
+.fadeins.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}*/

@@ -1,211 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" cl">
-<!--This Website made with love by syntaxspin -->
-<head>
+  <!--This Website made with love by syntaxspin -->
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
     
-<script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
-<!-- Filled -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
 
-<!-- Outlined -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-
-<!-- Rounded -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-
-<!-- Sharp -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-
-<!-- Two Tone -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
-
-<!-- font-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-<style>
-    html{
-        font-family: "JetBrains Mono", sans-serif;
-    }
-   html:root {
-
-  --mdui-color-primary: 255 180 166;
-  --mdui-color-surface-tint: 255 180 166;
-  --mdui-color-on-primary: 102 7 0;
-  --mdui-color-primary-container: 229 29 0;
-  --mdui-color-on-primary-container: 255 255 255;
-  --mdui-color-secondary: 255 180 166;
-  --mdui-color-on-secondary: 102 7 0;
-  --mdui-color-secondary-container: 132 12 0;
-  --mdui-color-on-secondary-container: 255 201 191;
-  --mdui-color-tertiary: 252 187 76;
-  --mdui-color-on-tertiary: 67 44 0;
-  --mdui-color-tertiary-container: 157 107 0;
-  --mdui-color-on-tertiary-container: 255 255 255;
-  --mdui-color-error: 255 180 171;
-  --mdui-color-on-error: 105 0 5;
-  --mdui-color-error-container: 147 0 10;
-  --mdui-color-on-error-container: 255 218 214;
-  --mdui-color-background: 32 14 11;
-  --mdui-color-on-background: 255 218 212;
-  --mdui-color-surface: 32 14 11;
-  --mdui-color-on-surface: 255 218 212;
-  --mdui-color-surface-variant: 95 63 57;
-  --mdui-color-on-surface-variant: 233 188 180;
-  --mdui-color-outline: 175 135 128;
-  --mdui-color-outline-variant: 95 63 57;
-  --mdui-color-shadow: 0 0 0;
-  --mdui-color-scrim: 0 0 0;
-  --mdui-color-inverse-surface: 255 218 212;
-  --mdui-color-inverse-on-surface: 65 43 39;
-  --mdui-color-inverse-primary: 188 22 0;
-  --mdui-color-primary-fixed: 255 218 212;
-  --mdui-color-on-primary-fixed: 63 3 0;
-  --mdui-color-primary-fixed-dim: 255 180 166;
-  --mdui-color-on-primary-fixed-variant: 144 14 0;
-  --mdui-color-secondary-fixed: 255 218 212;
-  --mdui-color-on-secondary-fixed: 63 3 0;
-  --mdui-color-secondary-fixed-dim: 255 180 166;
-  --mdui-color-on-secondary-fixed-variant: 142 18 3;
-  --mdui-color-tertiary-fixed: 255 221 175;
-  --mdui-color-on-tertiary-fixed: 40 24 0;
-  --mdui-color-tertiary-fixed-dim: 252 187 76;
-  --mdui-color-on-tertiary-fixed-variant: 97 64 0;
-  --mdui-color-surface-dim: 32 14 11;
-  --mdui-color-surface-bright: 75 51 47;
-  --mdui-color-surface-container-lowest: 26 9 7;
-  --mdui-color-surface-container-low: 42 22 19;
-  --mdui-color-surface-container: 46 26 23;
-  --mdui-color-surface-container-high: 58 37 33;
-  --mdui-color-surface-container-highest: 70 47 43;
-
-}
-.clovers{
-    -webkit-mask : url(clover.svg);
-    mask-image: url(clover.svg);
-   
-}
-
-
-
-
-
-.txt h1
-{
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; 
-  text-align: center; 
-	text-align: center;
-	letter-spacing: 5px;
-	
-}
-/*Aniamtion*/
-/* Animation */
-
-@keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
-
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
-}
-
-@-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
-
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
-}
-
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both
-}
-
-.animatedFadeInUp {
-    opacity: 0
-}
-
-.fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
-}
-/*.fadeins {
-  opacity: 0;
-  transition: all 1.5s;
-  transform: translate(0, 100px);
-}
-
-.fadeins.visible {
-  opacity: 1;
-  transform: translate(0, 0);
-}*/
-</style>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Aquiles Trindade Ferreira</title>
-</head>
-<header class="animated animatedFadeInUp fadeInUp">
+  </head>
+  <header class="animated animatedFadeInUp fadeInUp">
     <mdui-top-app-bar style="position: relative;">
-        
-        <mdui-top-app-bar-title style="padding-left: 14px; font-size: 16px; ">Aquiles Trindade</mdui-top-app-bar-title>
-        <div style="flex-grow: 1"></div>
-        <mdui-button-icon icon="more_vert"></mdui-button-icon>
-      </mdui-top-app-bar>
-      
-
-</header>
-<body>
-    <div style="margin: 36px; text-align: center; -webkit-mask-size: cover ; object-fit: cover; mask-size: cover;" >
-    <img class="clovers animated animatedFadeInUp fadeInUp" src="https://github.com/Trindadedev13.png" width="250" height="250" alt="pfp">
-</div>
-
-  
-       <div class="txt animated animatedFadeInUp fadeInUp">
-        <h1>Aquiles Trindade Ferreira</h1>
-    
+      <mdui-top-app-bar-title style="padding-left: 14px; font-size: 16px;">Aquiles Trindade</mdui-top-app-bar-title>
+      <div style="flex-grow: 1"></div>
+      <mdui-button-icon icon="more_vert"></mdui-button-icon>
+    </mdui-top-app-bar>
+  </header>
+  <body>
+    <div style="margin: 36px; text-align: center; -webkit-mask-size: cover; object-fit: cover; mask-size: cover;">
+      <img class="clovers animated animatedFadeInUp fadeInUp" src="https://github.com/Trindadedev13.png" width="250" height="250" alt="pfp">
     </div>
-  <mdui-divider width="10px" style="margin-top: 25px;" class="animated animatedFadeInUp fadeInUp"></mdui-divider>
-   <div style="text-align: center;">
-
-    <h2 class="fadeins">About Aquiles</h2>
-   <mdui-card variant="outlined"  style="margin: 12px; padding: 10px ;">
-    <p class="fadeins">
-        AquilesTrindade, a developer whose name sounds like a mythical hero (and probably codes like one!), is deeply in love with Jetpack Compose. This isn't just a casual fling; it's a full-blown, committed relationship.  His passion manifests in a stunning array of projects, each a testament to his Compose prowess.  He's the mastermind behind Robok, a gaming engine and its accompanying language – talk about ambition!  Then there's Robok Easy-UI, making GUI creation for games a breeze.  He even tackled IDEs, creating SparklesIDE (web/Python), Nexus (Java/Kotlin), and the impressively multilingual Karbon.  And let's not forget Visual Code Space, his all-encompassing IDE, all built with the magic of Compose.  He even found time to build a Telegram bot tool – because, why not?  The man's a coding machine!  His projects are a testament to his skill and dedication, showcasing the versatility and power of Jetpack Compose.  Seriously, this guy's a force of nature.  He's single-handedly proving that Compose can handle anything you throw at it.  He's like the Jetpack Compose ninja warrior, silently and efficiently conquering the world of software development, one beautifully crafted line of code at a time.  AquilesTrindade: the name is synonymous with Jetpack Compose mastery.  He's basically the Compose whisperer.  If you need something built in Compose, you know who to call!
-    </p></mdui-card>
-   </div>
-    
-
-
-</body>
-<script>
-   /* $(document).on("scroll", function () {
-      var pageTop = $(document).scrollTop()
-      var pageBottom = pageTop + $(window).height()
-      var tags = $(".fadeins")
-  
-      for (var i = 0; i < tags.length; i++) {
-        var tag = tags[i]
-  
-        if ($(tag).offset().top < pageBottom) {
-          $(tag).addClass("visible")
-        } else {
-          $(tag).removeClass("visible")
-        }
-      }
-    })*/
-  </script>
+    <div class="txt animated animatedFadeInUp fadeInUp">
+      <h1>Aquiles Trindade Ferreira</h1>
+    </div>
+    <mdui-divider width="10px" style="margin-top: 25px;" class="animated animatedFadeInUp fadeInUp"></mdui-divider>
+    <div style="text-align: center;">
+      <h2 class="fadeins">About Aquiles</h2>
+      <mdui-card variant="outlined" style="margin: 12px; padding: 10px;">
+        <p class="fadeins">AquilesTrindade, a developer whose name sounds like a mythical hero (and probably codes like one!), is deeply in love with Jetpack Compose. This isn't just a casual fling; it's a full-blown, committed relationship. His passion manifests in a stunning array of projects, each a testament to his Compose prowess. He's the mastermind behind Robok, a gaming engine and its accompanying language – talk about ambition! Then there's Robok Easy-UI, making GUI creation for games a breeze. He even tackled IDEs, creating SparklesIDE (web/Python), Nexus (Java/Kotlin), and the impressively multilingual Karbon. And let's not forget Visual Code Space, his all-encompassing IDE, all built with the magic of Compose. He even found time to build a Telegram bot tool – because, why not? The man's a coding machine! His projects are a testament to his skill and dedication, showcasing the versatility and power of Jetpack Compose. Seriously, this guy's a force of nature. He's single-handedly proving that Compose can handle anything you throw at it. He's like the Jetpack Compose ninja warrior, silently and efficiently conquering the world of software development, one beautifully crafted line of code at a time. AquilesTrindade: the name is synonymous with Jetpack Compose mastery. He's basically the Compose whisperer. If you need something built in Compose, you know who to call!</p>
+      </mdui-card>
+    </div>  
+  </body>
+  <script src="scripts.js"></script>
 </html>
